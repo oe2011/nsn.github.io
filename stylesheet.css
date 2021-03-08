@@ -1,0 +1,276 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+header {
+    width:100%;
+    height:400px;
+    background-image: url('./img/top.jpg');
+    background-size: cover;
+    margin-bottom: 20px;;
+}
+
+.low{
+  color:red;
+}
+
+.back-color{
+  width: 100%;
+  height:100px;
+  position:absolute;
+  bottom:64%;
+  background-color: rgba(0, 0, 0,0.6);
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-family: serif;
+  font-size: 40px;
+  z-index: 10;
+}
+
+.contents-part h1{
+  text-align: center;
+  font-size: 45px;
+}
+
+.contents-menus{
+width:80%;
+margin:0 auto;
+display:flex;
+}
+
+
+.contents-part li{
+width:15%;
+margin:0 auto;
+text-align: center;
+}
+.btn:hover{
+opacity:1;
+
+}
+
+.btn:active{
+position:relative;
+top:5px;
+box-shadow: none;
+}
+
+.btn{
+  width:80%;
+  color:black;
+  display:inline-block;
+  background-color: springgreen;
+  opacity:0.7;
+  padding:10px 20px;
+  border-radius: 4px;
+  cursor:pointer;
+  box-shadow: teal 0px 5px 0px 0px;
+}
+
+.contents-part i{
+  width:80%;
+  color:white;
+  display:inline-block;
+  background-color: aqua;
+  opacity:0.7;
+  padding:14px 20px;
+  border-radius: 4px;
+  cursor:pointer;
+  box-shadow: teal 0px 5px 0px 0px;
+}
+
+.contents{
+width:100%;
+}
+
+.small-title{
+  width:90%;
+  margin:0 auto;
+  background-color: rgba(0, 0, 0,0.03);
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom:30px;
+  font-size: 40px;
+
+}
+.profile{
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  margin-top:10px;
+  padding:60px;
+}
+
+
+.profile img{
+  width:40%;
+  border-radius: 50%;
+}
+
+.text{
+  width:60%;
+  margin:0 auto;
+}
+
+.profile table{
+  border-collapse: collapse;
+  width:100%;
+  margin:0 auto;
+  height:170px;
+  font-size: 30px;
+  margin-left:40px;
+  text-align: center;
+  font-family: "HG行書体";
+}
+
+.about-me{
+  text-align: center;
+  width:100%;
+  font-size: 20px;
+  font-family: serif;
+  background-color: rgba(70, 130, 180,0.1);
+  padding:20px;
+  margin-left:40px;
+  border-radius: 4px;
+}
+
+.work{
+  width:90%;
+  margin:0 auto;
+}
+.kenkyuu p{
+  text-align: left;
+  font-size: 35px;
+  font-family: serif;
+}
+
+.work-image{
+  width: 100%;
+  display:flex;
+}
+
+.work-image img{
+  width: 40%;
+  margin:0 auto;
+  padding:20px;
+}
+
+.web{
+  text-align: left;
+  font-size: 35px;
+  font-family: serif;
+}
+
+.page{
+  text-align: left;
+  font-size: 35px;
+  font-family: serif;
+  margin-left:35px;
+}
+
+.news{
+  width:90%;
+  margin:0 auto;
+}
+
+.news h3{
+  font-size:25px;
+  font-family: serif;
+  text-align: center;
+}
+
+.rireki{
+  padding-top: 20px;
+  padding-left:30px;
+  font-size:20px;
+  text-align: left;
+  
+}
+
+.news table{
+  border-collapse: collapse;
+  width:100%;
+  height:150px;
+}
+
+.contact{
+  width:90%;
+  margin: 0 auto;
+  font-size: 35px;
+  font-family: serif;
+  margin-bottom:40px;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.links{
+  display:flex;
+  width:100%;
+  margin:0 auto;
+  margin-top:40px;
+}
+
+.link{
+  width:20%;
+  margin:0 auto;
+  text-align: center;
+  background-color: cornflowerblue;
+  box-shadow: darkblue 0px 7px 0px 0px;
+}
+
+.follow p{
+  margin-top: 400px;
+  margin-bottom: 10px;
+  border-top:1px solid grey;
+  padding-top:60px;
+}
+
+.icon{
+  width:20%;
+  margin:0 auto;
+}
+
+.follow a{
+  width: 100%;
+  text-align: center;
+  display:inline-block;
+  background-color: aqua;
+  border-radius: 4px;
+  color:white;
+  padding:5px 40px;
+  box-shadow: steelblue 0 7px 0 0;
+  opacity:0.7;
+}
+
+.follow a:hover{
+  opacity: 1;
+}
+
+.follow a:active{
+  position: relative;
+  top:7px;
+  box-shadow: none;
+}
