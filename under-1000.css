@@ -23,18 +23,8 @@ a {
 }
 
 @media(max-width:1000px){
-    .back-color{
-        width: 100%;
-        height:100px;
-        position:absolute;
-        bottom:60%;
-        background-color: rgba(0, 0, 0,0.6);
-        text-align: center;
-        line-height: 100px;
-        color: white;
-        font-family: serif;
+    header h1{
         font-size: 20px;
-        z-index: 10;
     }
 
     .contents-part li{
@@ -53,7 +43,7 @@ a {
     }
 
      .profile{
-        width:100%;
+        width:90%;
         margin-top:0px;
         flex-direction:column;
       }
@@ -88,26 +78,31 @@ a {
       }
 
       .kenkyuu p{
-        text-align: left;
+        text-align: center;
         font-size: 25px;
         font-family: serif;
       }
 
       .web{
-        text-align: left;
+        text-align: center;
         font-size: 25px;
         font-family: serif;
       }
+
+      .news{
+        width:80%;
+        margin:0 auto;
+      }
     
       .page{
-        text-align: left;
+        text-align: center;
         font-size: 25px;
         font-family: serif;
         margin-left:25px;
       }
 
       .contact{
-        width:90%;
+        width:80%;
       }
     
       .link{
