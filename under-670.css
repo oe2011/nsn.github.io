@@ -64,6 +64,12 @@ a {
     margin-top:10px;
   }
 
+  .space-img{
+    background-image: url('./img/space.jpg');
+    height:200px;
+    margin-bottom: 20px;
+  }
+
   .kenkyuu p{
     font-size: 15px;
   }
@@ -104,6 +110,10 @@ a {
     width:80%;
     margin: 0 auto;
     font-size: 15px;
+  }
+
+  .shake-img{
+    height:150px;
   }
 
   .link{

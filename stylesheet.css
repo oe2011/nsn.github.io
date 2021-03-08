@@ -25,13 +25,14 @@ a {
 header {
     width:100%;
     height:400px;
-    background-image: url('./top.jpg');
+    background-image: url('./img/top.jpg');
     background-size: cover;
     margin-bottom: 20px;
 }
 
 .low{
   color:red;
+  animation:anime1 3s ease;
 }
 
 header h1{
@@ -131,6 +132,35 @@ width:100%;
 .profile img{
   width:40%;
   border-radius: 50%;
+  position:relative;
+}
+
+@keyframes anime1{
+  0% {
+    opacity:0;
+    top:50px;
+  }
+
+  25% {
+    opacity:0.25;
+    top:37.5px;
+  }
+
+  50% {
+    opacity:0.5;
+    top:25px;
+  }
+
+  75% {
+    opacity:0.75;
+    top:12.5px;
+  }
+
+  100% {
+    opacity:1;
+    top:0px;
+  }
+
 }
 
 .text{
@@ -163,6 +193,13 @@ width:100%;
 .work{
   width:90%;
   margin:0 auto;
+}
+
+.space-img{
+  background-image: url('./img/space.jpg');
+  background-size: cover;
+  height:800px;
+  margin-bottom: 20px;
 }
 .kenkyuu p{
   text-align: left;
@@ -225,6 +262,13 @@ width:100%;
   font-size: 35px;
   font-family: serif;
   margin-bottom:40px;
+}
+
+.shake-img{
+  background-image: url('./img/shaking.jpg');
+  background-size: cover;
+  height:800px;
+  margin-bottom: 20px;
 }
 
 .contact p{

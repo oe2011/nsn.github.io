@@ -77,6 +77,13 @@ a {
         margin-left:0px;
       }
 
+      .space-img{
+        background-image: url('./img/space.jpg');
+        background-size: cover;
+        height:600px;
+        margin-bottom: 20px;
+      }
+
       .kenkyuu p{
         text-align: center;
         font-size: 25px;
@@ -103,6 +110,10 @@ a {
 
       .contact{
         width:80%;
+      }
+
+      .shale-img{
+        height:600px;
       }
     
       .link{
