@@ -1,0 +1,124 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+@media(max-width:1000px){
+    .back-color{
+        width: 100%;
+        height:100px;
+        position:absolute;
+        bottom:60%;
+        background-color: rgba(0, 0, 0,0.6);
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        font-family: serif;
+        font-size: 20px;
+        z-index: 10;
+    }
+
+    .contents-part li{
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+        font-size: 5px;
+    }
+
+    .under-1000{
+        display: inline-block;
+    }
+
+    .over-1000{
+        display: none;
+    }
+
+     .profile{
+        width:100%;
+        margin-top:0px;
+        flex-direction:column;
+      }
+
+      .profile img{
+        
+        width:100%;
+        border-radius: 50%;
+      }
+      
+      .text{
+        width:100%;
+      }
+      
+      .profile table{
+        border-collapse: collapse;
+        height:170px;
+        font-size: 30px;
+        font-family: "HG行書体";
+        margin-left:0px;
+        
+      }
+      
+      .about-me{
+        text-align: center;
+        width:100%;
+        font-size: 20px;
+        font-family: serif;
+        background-color: rgba(70, 130, 180,0.1);
+        border-radius: 4px;
+        margin-left:0px;
+      }
+
+      .kenkyuu p{
+        text-align: left;
+        font-size: 25px;
+        font-family: serif;
+      }
+
+      .web{
+        text-align: left;
+        font-size: 25px;
+        font-family: serif;
+      }
+    
+      .page{
+        text-align: left;
+        font-size: 25px;
+        font-family: serif;
+        margin-left:25px;
+      }
+
+      .contact{
+        width:90%;
+      }
+    
+      .link{
+        font-size:20px;
+        width:30%;
+        margin:0 auto;
+        text-align: center;
+        background-color: cornflowerblue;
+        box-shadow: darkblue 0px 7px 0px 0px;
+      }
+
+
+
+}
